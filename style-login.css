@@ -1,0 +1,328 @@
+html {
+    height: 100%;
+  }
+  body {
+      display: grid;
+      grid-template-columns:  1fr 1fr;
+      height: 100%;
+      margin: 0;
+  }
+  
+  
+  
+  .login1{
+      grid-column: 1 / 1;
+    
+  }
+  .login{
+      grid-column: 2 / 3;
+      position: absolute;
+      top: 10%;
+      left: 60%;
+      text-align: center;
+  }
+  .titulo1{
+      position: absolute;
+      top: 50%;
+      left: 14%;
+      transform: translate(-50%, -50%);
+      color: white;
+  }
+  .texto1{
+      position: absolute;
+      top: 60%;
+      left: 14%;
+      transform: translate(-50%, -50%);
+      color: white;
+  }
+ 
+  
+  .id-cuadro-password{
+      padding-left: 117px;
+  }
+  .nombre-cuadro-password{
+      padding-left: 75px;
+  }
+  .cuadro-password{
+  border: 1px solid #000;
+  width: 397px;
+  margin-left: 562px;
+  margin-top: 273px;
+  }
+  .titulo-header{
+      text-align: center;
+      margin: 0;
+  }
+  
+  .smart-form {
+      margin: 0;
+      outline: 0;
+      color: rgb(0, 0, 0);
+      position: relative;
+  }
+  
+  .smart-form fieldset {
+      display: block;
+      padding: 25px 14px 5px;
+      border: none;
+      background: rgba(255,255,255,.9);
+      position: relative;
+  }
+  .smart-form section {
+      margin-bottom: 15px;
+      position: relative;
+  }
+  .smart-form .label {
+      
+      margin-bottom: 6px;
+      line-height: 19px;
+      font-weight: 400;
+      font-size: 13px;
+      color: #333;
+      text-align: left;
+      white-space: normal;
+  }
+  .client-form header {
+      padding: 15px 13px;
+      margin: 0;
+      border-bottom-style: solid;
+      border-bottom-color: rgba(0,0,0,.1);
+      background: rgba(248,248,248,.9);
+      font-size: 20px;
+      text-align: center;
+  }
+      
+  
+  .registro {
+      width: 140px;
+      font: 300 15px/29px 'Open Sans',Helvetica,Arial,sans-serif;
+      cursor: pointer;
+      color: #fff;
+      background: #ffbf10;
+      border-color: #ffca1c;
+      height: 30px;
+      border-radius: 10px;
+  }
+  label{
+      font-family: 'Roboto', sans-serif;
+      font-size: 90%;
+      color: #6A6A6A
+  
+     
+  }
+  button:hover{
+      background:rgb(255, 255, 255);
+      color: #000000;
+  }
+  input{
+      width: 236px;
+      border-color: #ffffff;
+      background: #c2c2c2;
+      border-radius: 5px;
+      color: white;
+  }
+  .btn-primary{
+  font: 300 15px/29px 'Open Sans',Helvetica,Arial,sans-serif;
+  cursor: pointer;
+  color: #fff;
+  background: rgb(150,192,196);
+  border-color: rgb(150,192,196);
+  height: 29px;
+  border-radius: 10px;
+  width: 28%;
+  }
+  .btnn-primary{
+      font: 300 15px/29px 'Open Sans',Helvetica,Arial,sans-serif;
+      cursor: pointer;
+      color: #fff;
+      background: rgb(150,192,196);
+      border-color: rgb(150,192,196);
+      height: 29px;
+      border-radius: 10px;
+      width: 28%;
+      margin-top: 10%;
+      }
+  .texto2{
+   font-weight: bold;
+  }
+  input::placeholder {/*color del placeholder*/
+      color: #fff;
+  }
+  .modal-contenido{
+      background-color: rgb(251,176,59);
+      width: 38%;
+      padding: 10px 20px;
+      margin: 3% auto;
+      position: relative;
+      box-sizing: border-box;
+      height: 85%;
+      border-radius: 10px;
+    }
+    .modal{
+      background-color: rgba(0,0,0,.8);
+      position:fixed;
+      top:0;
+      right:0;
+      bottom:0;
+      left:0;
+      opacity:0;
+      pointer-events:none;
+    }
+    #miModal:target{
+      opacity:1;
+      pointer-events:auto;
+    }
+  #name{
+      background-color: #fff;
+      padding: 3%;
+      width: 95%;
+      color: black;
+      height: 1px;
+      margin-bottom: 3%;
+      box-sizing: border-box;
+  }
+  #name::placeholder {/*color del placeholder*/
+      color: #9b9b9b;
+  }
+  #email{
+      background-color: #fff;
+      padding: 3%;
+      width: 95%;
+      color: black;
+      height: 1px;
+      margin-bottom: 3%;
+      box-sizing: border-box;
+  }
+  #email::placeholder {/*color del placeholder*/
+      color: #9b9b9b;
+  }
+  #contraseña{
+      background-color: #fff !important;
+      padding: 3% !important;
+      width: 95% !important;
+      color: black !important;
+      height: 1px !important;
+      margin-bottom: 3%;
+      box-sizing: border-box;
+  }
+  #contraseña::placeholder {/*color del placeholder*/
+      color: #9b9b9b;
+  }
+  #passwordrepeat{
+      background-color: #fff;
+      padding: 3%;
+      width: 95%;
+      color: black;
+      height: 1px;
+      margin-bottom: 3%;
+      box-sizing: border-box;
+  }
+  #passwordrepeat::placeholder {/*color del placeholder*/
+      color: #9b9b9b;
+  }
+  #celular{
+      display: float;
+      background-color: #fff;
+      padding: 3%;
+      width: 40%;
+      color: black;
+      height: 1px;
+      margin-bottom: 3%;
+      box-sizing: border-box;
+      float: left;
+      box-sizing: border-box;
+      margin-left: 3%;
+  }
+  #celular::placeholder {/*color del placeholder*/
+      color: #9b9b9b;
+  }
+  #sexo{
+      background-color: #fff;
+      padding: 3%;
+      width: 25%;
+      color: black;
+      height: 1px;
+      margin-bottom: 3%;
+      float: left;
+      margin-left: 5%;
+  }
+  #DAY{
+      background-color: #fff;
+      padding: 3%;
+      width: 10%;
+      color: black;
+      height: 12px;
+  }
+  #MOUNTH{
+      background-color: #fff;
+      padding: 3%;
+      width: 10%;
+      color: black;
+      height: 12px;
+  }
+  #YEAR{
+      background-color: #fff;
+      padding: 3%;
+      width: 10%;
+      color: black;
+      height: 12px;
+  }
+  h2{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 200%; 
+    color:#fff;
+    float: left; 
+    margin-bottom: 2%;
+  }
+
+  .padre{
+float: left;
+    
+}
+  @media screen and (max-width:500px){
+        body {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows:  1fr 1fr;
+      height: 200%;
+      margin: 0;
+  }
+    
+    .login1{
+      /*  display: none;*/
+ 
+      grid-row: 1/1;
+    }
+    .login{
+        
+        grid-row: 2/2;
+        position: absolute;
+        top: 110%;
+        left: 0%;
+        text-align: center;
+        
+        
+    }
+    .modal-contenido{
+        background-color: rgb(251,176,59);
+        width: 71%;
+        padding: 10px 20px;
+        margin: 10% auto;
+        position: relative;
+        box-sizing: border-box;
+        height: 69%;
+        border-radius: 15px;
+      }
+      .btnn-primary{
+        font: 300 15px/29px 'Open Sans',Helvetica,Arial,sans-serif;
+        cursor: pointer;
+        color: #fff;
+        margin-top: 10%;
+        background: rgb(150,192,196);
+        border-color: rgb(150,192,196);
+        height: 29px;
+        border-radius: 10px;
+        width: 88%;
+        }
+    
+    }

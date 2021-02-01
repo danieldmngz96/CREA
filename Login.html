@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-login.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
+    <title>Login ALTER</title>
+</head>
+
+<body>
+
+    <div class="login1">
+        <img class="imagenfondo" src="img/img-login.png" alt="" width="100%" height="100%">
+    </div>
+    <div class="login">
+        <img class="imagenfondo2" src="cerebrin.png" alt="" width="30%" height="20%">
+        <p class="texto2"><b style="font-style: italic;">by ALTER</b></p>
+        <form id="login-form" action="php/login.php" method="post" class="smart-form client-form">
+            <fieldset>
+                <section>
+
+                    <input type="text" placeholder="Ingresa tu Usuario" name="Email" /><b
+                        class="tooltip tooltip-top-right"></b>
+                </section>
+                <section>
+
+                    <input type="Password" placeholder="Ingresa tu Contraseña" name="Password" /><b
+                        class="tooltip tooltip-top-right"></b>
+                </section>
+            </fieldset>
+            <div>
+                <button type="submit" class="btn-primary" onclick="login()">INGRESAR</button>
+            </div>
+        </form>
+        <br>
+        <br>
+        <p class="texto2">¿No tienes cuenta?</p>
+
+
+
+        <a href="#miModal"><button class="registro">REGISTRATE</button></a>
+        <div id="miModal" class="modal">
+            <div class="modal-contenido">
+                <a href="./Login.html" style="float: right;">X</a>
+                <h2>BIEVENIDO A CREA,</h2>
+                <p style="color: #fff; float: left; margin-top: 0%; font-size: 80%;">CRECE, CREE Y CREA CON EL UNIVERSO
+                    QUE ALTER HA DISEÑADO PARA TI
+                </p>
+                <div>
+
+                    <form action="">
+                        <input type="text" id="name" name="Nombre" placeholder="NOMBRES Y APELLIDOS">
+                        <input type="email" id="email" name="Email" placeholder="E-MAIL">
+                        <input type="password" id="contraseña" name="Password" placeholder="CONSTRASEÑA">
+                        <input type="password" id="contraseña" name="passwordrepeat"
+                            placeholder="CONFIRMAR TU CONTRASEÑA">
+                        <input type="number" id="celular" name="Celular" placeholder="CELULAR">
+                        <br>
+                        <div class="padre">
+                            <!--INICIO DE SECCION ABAJO-->
+                            <label for="sex" style="float: inline-start; margin-right: 300px;">SEXO</label>
+                            <div>
+                                
+                                <select id="sexo" name="Sexo">
+                                    <option value="H">Hombre</option>
+                                    <option value="M">Mujer</option>
+                                    <option value="Other" selected>Otros</option>
+                                </select>
+                            </div>
+
+                            <label for="sex" style="float: inline-start; margin-left: 10px;">FECHA DE NACIEMIENTO</label>
+                            <div >
+                                
+                                <input type="number" id="DAY" name="password1" placeholder="DIA">
+                                <input type="number" id="MOUNTH" name="passwordrepeat" placeholder="MES">
+                                <input type="number" id="YEAR" name="cell phone" placeholder="AÑO">
+                            </div>
+
+                        </div>
+                        <button type="submit" class="btnn-primary" onclick="login()">INGRESAR</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+        <br>
+        <b>o</b>
+        <p style="text-decoration: underline rgb(150,192,196); color: rgb(150,192,196);;"> INGRESA COMO INVITADO <br> Y
+            DESCUBRE TODOS NUESTROS CURSOS </p>
+    </div>
+
+
+
+
+</body>
+
+</html>
