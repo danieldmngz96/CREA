@@ -3,116 +3,145 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="style-login.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
+    <!-- CSS Bootstrap 4.0 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title>Login ALTER</title>
+    <!-- FIN CSS Bootstrap 4.0 -->
 </head>
 
 <body>
-
-    <div class="login1">
-        <img class="imagenfondo" src="img/img-login.png" alt="" width="100%" height="100%">
-    </div>
-    <div class="login">
-        <img class="imagenfondo2" src="cerebrin.png" alt="" width="30%" height="20%">
-        <p class="texto2"><b style="font-style: italic;">by ALTER</b></p>
-        <form id="login-form" action="php/login.php" method="post" class="smart-form client-form">
-            <fieldset>
-                <section>
-
-                    <input type="text" placeholder="Ingresa tu Usuario" name="Email" /><b
-                        class="tooltip tooltip-top-right"></b>
-                </section>
-                <section>
-
-                    <input type="Password" placeholder="Ingresa tu Contraseña" name="Password" /><b
-                        class="tooltip tooltip-top-right"></b>
-                </section>
-            </fieldset>
-            <div>
-                <button type="submit" class="btn-primary" onclick="login()">INGRESAR</button>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-6 fondo2 ocultar">
             </div>
-        </form>
-        <br>
-        <br>
-        <p class="texto2">¿No tienes cuenta?</p>
+            <div class="col-md-6 fondo">
+                <div class="col-md-12 text-center margin-superior">
+                    <img class="imagenfondo2" src="cerebrin.png" alt="" width="30%" height="20%">
+                </div>
+                <div class="col-md-12">
+                    <p class="texto2 text-center"><b style="font-style: italic;">by ALTER</b></p>
+                </div>
+                <div class="col-md-12 text-center">
+                    <form id="login-form" action="php/login.php" method="post" class="smart-form client-form">
+                        <fieldset>
+                            <section>
 
+                                <input type="text" placeholder="EMAIL O CELULAR" name="Email" class="text-center" /><b
+                                        class="tooltip tooltip-top-right"></b>
+                            </section>
+                            <section>
 
-
-        <a href="#miModal"><button class="registro">REGISTRATE</button></a>
-        <div id="miModal" class="modal">
-            <div class="modal-contenido">
-                <a href="./Login.html" style="float: right;">X</a>
-                <h2>BIEVENIDO A CREA,</h2>
-                <p style="color: #fff; float: left; margin-top: 0%; font-size: 80%;">CRECE, CREE Y CREA CON EL UNIVERSO
-                    QUE ALTER HA DISEÑADO PARA TI
-                </p>
-                <div>
-
-                    <form action="">
-                        <input type="text" id="name" name="Nombre" placeholder="NOMBRES Y APELLIDOS">
-                        <input type="email" id="email" name="Email" placeholder="E-MAIL">
-                        <input type="password" id="contraseña" name="Password" placeholder="CONSTRASEÑA">
-                        <input type="password" id="contraseña" name="passwordrepeat"
-                            placeholder="CONFIRMAR TU CONTRASEÑA">
-                        <input type="number" id="celular" name="Celular" placeholder="CELULAR">
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-
-                       
-                            <!--INICIO DE SECCION ABAJO-->
-                            <div style="width: 100%;
-                                        text-align: left;
-                                        padding-left: 22px;
-                                        display: inline-flex;">
-                                        <div style="width: 50%;">
-                                            <label for="sex" style="">SEXO</label>
-                                        </div>
-                                        <div style="width: 50%;">
-                                            <label for="sex" style="">FECHA DE NACIEMIENTO</label>
-                                        </div>
-                            </div>
-                                <select id="sexo" name="Sexo">
-                                    <option value="H">Hombre</option>
-                                    <option value="M">Mujer</option>
-                                    <option value="Other" selected>Otros</option>
-                                </select>
-                        
-                           
-                                <input type="date" id="DAY" name="password1" placeholder="DIA">
-                           
-                      
-                         <button type="submit" style=" font: 300 15px/29px 'Open Sans',Helvetica,Arial,sans-serif;
-                         cursor: pointer;
-                         color: #fff;
-                         background: rgb(150,192,196);
-                         border-color: rgb(150,192,196);
-                         height: 45px;
-                         border-radius: 10px;
-                         width: 45%;
-                         margin-top: 10%;
-                         font-size: 28px;
-                         margin: 57px 50px 2px -118px;" onclick="">REGISTRARTE</button>
-                       
+                                <input type="Password" placeholder="CONTRASEÑA" name="Password" class="text-center" /><b
+                                        class="tooltip tooltip-top-right"></b>
+                            </section>
+                        </fieldset>
+                        <div>
+                            <button type="submit" class="boton-main" onclick="login()">INGRESAR</button>
+                        </div>
                     </form>
+                    <br>
+                    <br>
+                    <p class="texto2 text-center">¿No tienes cuenta?</p>
+                    <br>
+
+                    <button type="button" class="btn registro" data-toggle="modal" data-target="#exampleModal">
+                        <b>REGISTRATE</b>
+                    </button>
+
+                    <br>
+                    <b>o</b>
+                    <p style="text-decoration: underline rgb(150,192,196); color: rgb(150,192,196);"> INGRESA COMO INVITADO <br>   Y DESCUBRE TODOS NUESTROS CURSOS </p>
+                    <br><br><br>
                 </div>
 
+                <!--Inicio Modal Pop Up registrate -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <div class="col-md-11">
+                            <h5 class="modal-title" id="exampleModalLabel"><b>BIEVENIDO A CREA,</b></h5>
+                        </div>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="col-md-12">
+                            <p style="color: #fff; float: left; margin-top: 0%; font-size: 80%;">CRECE, CREE Y CREA CON EL UNIVERSO
+                                QUE ALTER HA DISEÑADO PARA TI
+                            </p>
+                        </div>
+                        <div class="col-md-12">
+                            <form action="">
+                                <input type="text" id="name" name="Nombre" placeholder="NOMBRES Y APELLIDOS" class="letra">
+                                <input type="email" id="email" name="Email" placeholder="E-MAIL" class="letra">
+                                <input type="password" id="contraseña" name="Password" placeholder="CONSTRASEÑA" class="letra">
+                                <input type="password" id="contraseña" name="passwordrepeat"
+                                        placeholder="CONFIRMAR TU CONTRASEÑA" class="letra">
+                                <input type="number" id="celular" name="Celular" placeholder="CELULAR" class="letra">
+                                <br><br><br>
+                                   
+                                <!--INICIO DE SECCION ABAJO-->
+                                <div class="row">
+                                    <div class="col-md-6 col-6">
+                                        <label for="sex" class="letra">SEXO</label>
+                                    </div>
+                                    <div class="col-md-6 col-6">
+                                        <label for="sex" class="letra">FECHA DE NACIEMIENTO</label>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-6 col-6">
+                                        <select id="sexo" name="Sexo">
+                                            <option value="H">Hombre</option>
+                                            <option value="M">Mujer</option>
+                                            <option value="Other" selected>Otros</option>
+                                        </select> 
+                                    </div>
+                                    <div class="col-md-6 col-6">
+                                        <input type="date" id="DAY" name="password1" placeholder="DIA">
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12 text-center">
+                                    <button type="submit" style=" font: 300 15px/29px 'Open Sans',Helvetica,Arial,sans-serif;
+                                     cursor: pointer;
+                                     color: #fff;
+                                     background: rgb(150,192,196);
+                                     border-color: rgb(150,192,196);
+                                     height: 45px;
+                                     border-radius: 10px;
+                                     width: 45%;
+                                     margin-top: 10%;
+                                     font-size: 20px;
+                                     " onclick="">REGISTRARTE</button>
+                                </div>   
+                                   
+                            </form>
+                        </div>
+                      </div> 
+                    </div>
+                  </div>
+                </div>
+                <!--Fin Modal Pop Up Registrate -->
             </div>
         </div>
-        <br>
-        <b>o</b>
-        <p style="text-decoration: underline rgb(150,192,196); color: rgb(150,192,196);;"> INGRESA COMO INVITADO <br> Y
-            DESCUBRE TODOS NUESTROS CURSOS </p>
     </div>
 
 
 
 
 </body>
+<!--Bootstrap 4.0 JS-->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!-- FIN Bootstrap 4.0 JS-->
 
 </html>

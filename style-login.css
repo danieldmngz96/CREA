@@ -1,39 +1,16 @@
-html {
-    height: 100%;
+body{
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+@media screen and (max-width: 700px){
+  body{
+    overflow-x: hidden !important;
+    overflow-y: hidden !important;
+  } 
+  .ocultar{
+    display: none;
   }
-  body {
-      display: grid;
-      grid-template-columns:  1fr 1fr;
-      height: 100%;
-      margin: 0;
-  }
-  .login1{
-      grid-column: 1 / 1;
-    
-  }
-  .login{
-      grid-column: 2 / 3;
-      position: absolute;
-      top: 10%;
-      left: 60%;
-      text-align: center;
-  }
-  .titulo1{
-      position: absolute;
-      top: 50%;
-      left: 14%;
-      transform: translate(-50%, -50%);
-      color: white;
-  }
-  .texto1{
-      position: absolute;
-      top: 60%;
-      left: 14%;
-      transform: translate(-50%, -50%);
-      color: white;
-  }
- 
-  
+}
   .id-cuadro-password{
       padding-left: 117px;
   }
@@ -45,10 +22,6 @@ html {
   width: 397px;
   margin-left: 562px;
   margin-top: 273px;
-  }
-  .titulo-header{
-      text-align: center;
-      margin: 0;
   }
   
   .smart-form {
@@ -62,7 +35,6 @@ html {
       display: block;
       padding: 25px 14px 5px;
       border: none;
-      background: rgba(255,255,255,.9);
       position: relative;
   }
   .smart-form section {
@@ -90,16 +62,19 @@ html {
   }
       
   
-  .registro {
-      width: 140px;
-      font: 300 15px/29px 'Open Sans',Helvetica,Arial,sans-serif;
-      cursor: pointer;
-      color: #fff;
-      background: #ffbf10;
-      border-color: #ffca1c;
-      height: 30px;
-      border-radius: 10px;
-  }
+.registro {
+  width: 25%;
+  cursor: pointer;
+  color: #fff;
+  background: #ffbf10;
+  border-color: #ffca1c;
+  height: 25px;
+}
+.btn{
+    border-radius: 20px !important;
+    padding: 0 !important;
+    font: 300 15px 29px 'Open Sans',Helvetica,Arial,sans-serif;
+}
   label{
       font-family: 'Roboto', sans-serif;
       font-size: 90%;
@@ -118,7 +93,7 @@ html {
       border-radius: 5px;
       color: white;
   }
-  .btn-primary{
+  .boton-main{
   font: 300 15px/29px 'Open Sans',Helvetica,Arial,sans-serif;
   cursor: pointer;
   color: #fff;
@@ -142,19 +117,18 @@ html {
    
   .texto2{
    font-weight: bold;
+   margin-left: 0.5rem;
   }
   input::placeholder {/*color del placeholder*/
       color: #fff;
   }
-  .modal-contenido{
-      background-color: rgb(251,176,59);
-      width: 38%;
-      padding: 10px 20px;
-      margin: 3% auto;
-      position: relative;
-      box-sizing: border-box;
-      height: 56%;
-      border-radius: 10px;
+    .modal-body{
+      background-color: rgb(251,176,59) !important;
+    }
+    .modal-header{
+      background-color: rgb(251,176,59) !important;
+      border-bottom: solid rgb(251,176,59) !important;
+      color: #fff;
     }
     .modal{
       background-color: rgba(0,0,0,.8);
@@ -217,32 +191,6 @@ html {
   }
   #passwordrepeat::placeholder {/*color del placeholder*/
       color: #9b9b9b;
-  }
-  #celular{
-      display: float;
-      background-color: #fff;
-      padding: 3%;
-      width: 40%;
-      color: black;
-      height: 1px;
-      margin-bottom: 3%;
-      box-sizing: border-box;
-      float: left;
-      box-sizing: border-box;
-      margin-left: 3%;
-  }
-  #celular::placeholder {/*color del placeholder*/
-      color: #9b9b9b;
-  }
-  #sexo{
-        background-color: #fff;
-        padding: 4%;
-        width: 27%;
-        color: black;
-        height: 1px;
-        margin-bottom: 3%;
-        float: left;
-        margin-left: 5%;
   }
   #DAY{
       background-color: #fff;
@@ -324,3 +272,70 @@ float: left;
         }
     
     }
+
+/* Estilos hechos por Carlos Castro en base a la incorporacion de Bootstrap */
+.container-fluid{
+  padding: 0 !important;
+}
+.margin-superior{
+  margin-top: 5rem;
+}
+.fondo{
+  background-image: url('./img/img-login2.png');
+  background-position: cover;
+  background-repeat: no-repeat;
+}
+.fondo2{
+  background-image: url('./img/img-login.png');
+  background-position: cover;
+  background-repeat: no-repeat;
+}
+.col-6{
+  padding: 0 !important;
+}
+.modal-header{
+  padding-bottom: 0 !important;
+}
+.modal-body{
+  padding-top: 0 !important;
+}
+.letra{
+  font-style: italic;
+}
+#celular{
+  display: float;
+  background-color: #fff;
+  padding: 3%;
+  width: 40%;
+  color: black;
+  height: 1px;
+  margin-bottom: 3%;
+  box-sizing: border-box;
+  float: left;
+  box-sizing: border-box;
+}
+#celular::placeholder {/*color del placeholder*/
+  color: #9b9b9b;
+}
+#sexo{
+  background-color: #fff !important;
+  width: 100% !important;
+  color: black !important;
+  box-sizing: border-box;
+  border-radius: 6px;
+  height: 35px !important;
+}
+#DAY{
+  background-color: #fff !important;
+  width: 100% !important;
+  color: black !important;
+  box-sizing: border-box;
+  border-radius: 6px;
+  height: 35px !important;
+}
+.modal-backdrop.show{
+  opacity: 0 !important;
+}
+.modal-backdrop{
+  background-color: #fff !important;
+}
