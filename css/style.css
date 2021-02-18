@@ -15,11 +15,12 @@ header{
 
 .navegacion{
     text-align: right;
-    width: 100%;
-	background: #E1E1E1;
+    width: 79%;
+	background: #97C1C4;
 	position:fixed;
 	z-index: 4;
 	opacity: 1;
+	margin-top: -16px;
 }
 
 .navegacion ul{
@@ -37,12 +38,12 @@ header{
     
 }
 .navegacion img{
-	right: 60%;
 	list-style: none;
 	position: relative;
-	top: 20px;
-
-    
+    padding-top: 22px;
+	float: left;
+	padding-left: 5%;
+	padding-top: 37px;
 }
 
 .menu > li{
@@ -107,6 +108,7 @@ header{
         position: absolute;
         z-index: 1;
 }
+
 .titulo1{
    font-size: 93px;
    color: #efb810;
@@ -119,9 +121,5 @@ header{
 .row2{
 	float: left;
 }
-.img_manito{
-	position: absolute;
-    z-index: 3;
-    padding-top: 1%;
-}
+
 
