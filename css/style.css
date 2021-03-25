@@ -164,6 +164,10 @@ header{
 	background: rgb(230,230,230);
 	height: 766px;
 }
+.fondo-comonacio{
+	background: rgb(230,230,230);
+	height: 802px;
+}
   @media screen and (min-height: 0px) and (max-width: 800px) {/*NUESTROS MEADIA QUERIES PARA PANTALLAS DELCELULAR */
 
 	.titulo-fundadores{
@@ -175,8 +179,22 @@ header{
 	.fondo-fundadores{
 		background: rgb(230,230,230);
 		 height: 2000px;
-	}
+	}   
+}/*FIN RESPONSIVE*/
 
-	   
+#txt6 {
+    color: #FFD700;
+    position: relative;
+    top: 13px;
+    left: 8%;
+    width: 80%;
+	font-size: 40px;
+}
+#part2 {
+    width: 101%;
+	background-color: rgb(15,11,19) !important;
+	position: relative;
+	top: 492%;
+	bottom: 127%;
 }
 
