@@ -121,5 +121,62 @@ header{
 .row2{
 	float: left;
 }
+.btn-yellow {
+	background: #efb810 !important;
+	color: #000;
+	font-weight: bold !important;
+	margin: 0 auto !important;
+  }
+  
+  .btn-yellow:hover {
+	background-color: #fff !important;
+  }
+  .parallax {
+	/* The image used */
+	background-color: #000;
+  
+	/* Set a specific height */
+	min-height: 500px; 
+  
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+  .btn-blue {
+	background: #7CB1B6 !important;
+	color: #fff !important;
+	font-weight: bold !important;
+	margin: 0 auto !important;
+	width: 50%;
+	height: 8%;
+	font-size: 23px;
+  }
+  .titulo-fundadores{
+	padding-top: 363px;
+	color: #FFD700; 
+	text-shadow: 1px 2px #999;
+	font-size: 40px;
+	padding-top: 83px
+}
+.fondo-fundadores{
+	background: rgb(230,230,230);
+	height: 766px;
+}
+  @media screen and (min-height: 0px) and (max-width: 800px) {/*NUESTROS MEADIA QUERIES PARA PANTALLAS DELCELULAR */
 
+	.titulo-fundadores{
+		padding-top: 363px;
+        color: #FFD700; 
+		text-shadow: 1px 2px #999;
+		font-size: 40px;
+	}
+	.fondo-fundadores{
+		background: rgb(230,230,230);
+		 height: 2000px;
+	}
+
+	   
+}
 
