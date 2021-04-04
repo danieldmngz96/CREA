@@ -4,6 +4,7 @@
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+	font-family: 'Fira Sans', sans-serif;
 }
 
 
@@ -145,20 +146,29 @@ header{
 	background-size: cover;
   }
   .btn-blue {
-	background: #7CB1B6 !important;
+	background-color: rgb(124,177,182) !important;
 	color: #fff !important;
 	font-weight: bold !important;
-	margin: 0 auto !important;
+	margin-left: 135px  !important;
 	width: 50%;
-	height: 8%;
-	font-size: 23px;
+	height: 10%;
+	font-size: 29px !important;
+	border-radius: 5px !important;
+
+  }
+  .titulo-iluminados{
+	color: #FFD700;
+	text-shadow: -7px 3px #000;
+	font-size: 69px;
+	padding-top: 83px;
+	font-weight: bold;
   }
   .titulo-fundadores{
-	padding-top: 363px;
-	color: #FFD700; 
-	text-shadow: 1px 2px #999;
-	font-size: 40px;
-	padding-top: 83px
+	color: #FFD700;
+	text-shadow: -7px 3px #000;
+	font-size: 69px;
+	padding-top: 83px;
+	font-weight: bold;
 }
 .fondo-fundadores{
 	background: rgb(230,230,230);
@@ -166,7 +176,7 @@ header{
 }
 .fondo-comonacio{
 	background: rgb(230,230,230);
-	height: 802px;
+	height: auto;
 }
   @media screen and (min-height: 0px) and (max-width: 800px) {/*NUESTROS MEADIA QUERIES PARA PANTALLAS DELCELULAR */
 
@@ -180,9 +190,14 @@ header{
 		background: rgb(230,230,230);
 		 height: 2000px;
 	}   
+	.position-cerebro__dorado {
+		position: relative;
+		bottom: 5px;
+		right: 149px;
+	}
 }/*FIN RESPONSIVE*/
 
-#txt6 {
+#txt1 {
     color: #FFD700;
     position: relative;
     top: 13px;
@@ -196,5 +211,32 @@ header{
 	position: relative;
 	top: 492%;
 	bottom: 127%;
+	height: auto;
 }
+.cerebro-morado{
+	width: 100%;
+    height: 633px;
+	max-height: 800px;
+}
+.position-cerebro__dorado{
+	position: relative;
+    bottom: 5px;
+}
+#txt2 {
+    color: #FFD700;
+    position: relative;
+	font-size: 10px;
+}
+.position-container__black{
+	background-color: rgb(15, 19, 11); margin-top: -1px;
+	padding: 14px;
+}
+.sign_in{
+	color: #FFD700;
+    font-size: 17px;
+    font-weight: bold;
+    position: relative;
+	left: 1495px;
+}
+
 
