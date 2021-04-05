@@ -6,6 +6,9 @@
 	box-sizing: border-box;
 	font-family: 'Fira Sans', sans-serif;
 }
+body{
+	background: rgb(230,230,230) !important;
+}
 
 
 header{
@@ -154,47 +157,69 @@ header{
 	height: 10%;
 	font-size: 29px !important;
 	border-radius: 5px !important;
-
   }
   .titulo-iluminados{
-	color: #FFD700;
-	text-shadow: -7px 3px #000;
+	color: rgb(255,176,0) !important;
+	text-shadow: -7px -4px #000;
 	font-size: 69px;
 	padding-top: 83px;
 	font-weight: bold;
   }
   .titulo-fundadores{
-	color: #FFD700;
-	text-shadow: -7px 3px #000;
+	color: rgb(255,176,0) !important;
+	text-shadow: -7px -4px #000;
 	font-size: 69px;
 	padding-top: 83px;
 	font-weight: bold;
 }
-.fondo-fundadores{
-	background: rgb(230,230,230);
-	height: 766px;
-}
+
 .fondo-comonacio{
 	background: rgb(230,230,230);
 	height: auto;
 }
   @media screen and (min-height: 0px) and (max-width: 800px) {/*NUESTROS MEADIA QUERIES PARA PANTALLAS DELCELULAR */
 
-	.titulo-fundadores{
-		padding-top: 363px;
-        color: #FFD700; 
-		text-shadow: 1px 2px #999;
-		font-size: 40px;
+	.titulo-iluminados{
+		color: rgb(255,176,0) !important;
+		text-shadow: -7px -4px #000;
+		font-size: 59px;
+		padding-top: 83px;
+		font-weight: bold;
+	  }
+	  .titulo-fundadores{
+		color: rgb(255,176,0) !important;
+		text-shadow: -7px -4px #000;
+		font-size: 58px;
+		padding-top: 372px;
+		font-weight: bold;
 	}
-	.fondo-fundadores{
-		background: rgb(230,230,230);
-		 height: 2000px;
-	}   
+	.titulo-comonacio{
+		color: rgb(255,176,0) !important;
+		text-shadow: -7px -4px #000;
+		font-size: 58px;
+		font-weight: bold;
+	}
+
 	.position-cerebro__dorado {
 		position: relative;
 		bottom: 5px;
 		right: 149px;
 	}
+	.text-iluminados{
+		margin: 0px 0px 0px 0px !important;
+	}
+	.btn-blue {
+		background-color: rgb(124,177,182) !important;
+		color: #fff !important;
+		font-weight: bold !important;
+		margin-left: 9px !important;
+		width: 94%;
+		height: 10%;
+		font-size: 29px !important;
+		border-radius: 5px !important;
+		position: relative;
+		bottom: -17px;
+		}
 }/*FIN RESPONSIVE*/
 
 #txt1 {
@@ -235,6 +260,12 @@ header{
 	color: #FFD700;
     font-size: 17px;
     font-weight: bold;
+}
+.text-iluminados{
+	font-size: 27px;
+	margin-top: 109px;
+	margin-left: 147px;
+	margin-bottom: 109px;
 }
 
 
