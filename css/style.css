@@ -16,7 +16,83 @@ header{
 	
 
 }
-
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+#about{
+	background-color: #e6e6e6 !important;
+  }
+  .about .logo-about{
+	width: 30%;
+	padding-top: 15%;
+  }
+  .about .content {
+	padding-left: 30px;
+  }
+  
+  .about .content h3 {
+	font-weight: 700;
+	font-size: 34px;
+  }
+  
+  .about .content p {
+	margin-bottom: 0;
+  }
+  
+  .about .content .icon-box {
+	margin-top: 25px;
+  }
+  
+  .about .content .icon-box h4 {
+	font-size: 20px;
+	font-weight: 700;
+	margin: 5px 0 10px 60px;
+  }
+  
+  .about .content .icon-box i {
+	font-size: 48px;
+	float: left;
+	color: #4eb478;
+  }
+  
+  .about .content .icon-box p {
+	font-size: 15px;
+	color: #848484;
+	margin-left: 60px;
+  }
+  
+  .about .image {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 400px;
+  }
+  
+  @media (max-width: 991px) {
+	.about {
+	  padding-left: 0;
+	}
+	.about .image {
+	  text-align: center;
+	}
+	.about .image img {
+	  max-width: 80%;
+	}
+  }
+  
+  @media (max-width: 667px) {
+	.about .image img {
+	  max-width: 100%;
+	}
+  }
+  .boton-crea{
+	background-color: #ffb000 !important;
+	border-radius: 10px !important;
+	width: 100% !important;
+	padding-top: 0.5rem I !important;
+	padding-bottom: 0.5rem !important;
+  }
+  /*FIN ABOUT*/
 .navegacion{
     text-align: right;
     width: 79%;
@@ -125,16 +201,7 @@ header{
 .row2{
 	float: left;
 }
-.btn-yellow {
-	background: #efb810 !important;
-	color: #000;
-	font-weight: bold !important;
-	margin: 0 auto !important;
-  }
   
-  .btn-yellow:hover {
-	background-color: #fff !important;
-  }
   .parallax {
 	/* The image used */
 	background-color: #000;
@@ -194,7 +261,7 @@ header{
 	  .titulo-fundadores{
 		color: rgb(255,176,0) !important;
 		text-shadow: -7px -4px #000;
-		font-size: 58px;
+		font-size: 51px;
 		padding-top: 372px;
 		font-weight: bold;
 	}
@@ -272,5 +339,94 @@ header{
 	margin-left: 147px;
 	margin-bottom: 109px;
 }
+
+/*POSICION IMAGEN ICONOS LINEA DE TIEMPO*/
+.position-icono1{
+	width: 114px;
+	position: relative;
+	bottom: 332px;
+	left: 92px;	
+}
+.position-icono2{
+	width: 114px;
+	position: relative;
+	bottom: 231px;
+	left: 251px;
+}
+.position-icono3{
+	width: 114px;
+	position: relative;
+	bottom: 351px;
+	left: 395px;
+}
+.position-icono4{
+	width: 114px;
+	position: relative;
+	bottom: 226px;
+	left: 542px;
+}
+.position-icono5{
+	width: 114px;
+	position: relative;
+	bottom: 344px;
+	left: 694px;
+}
+.position-icono6{
+	width: 114px;
+	position: relative;
+	bottom: 229px;
+	left: 838px;
+}/*FIN ICONOS*/
+/*POSICION CAJAS DE TEXTO LINEA DE TIEMPO*/
+.position-boxtext1{
+	border: 0px solid #000;
+	position: relative;
+	bottom: 228px;	
+}
+.position-boxtext2{
+	border: 0px solid #000;
+	position: relative;
+	bottom: 658px;
+}
+.position-boxtext3{
+	border: 0px solid #000;
+	position: relative;
+	bottom: 266px;
+}
+.position-boxtext4{
+	border: 0px solid #000;
+	position: relative;
+	bottom: 658px;
+	right: 33px;
+}
+.position-boxtext5{
+	border: 0px solid #000;
+
+	position: relative;
+	bottom: 271px;
+	right: 39px;
+}
+.position-boxtext6{
+	border: 0px solid #000;
+	position: relative;
+	bottom: 970px;
+	left: 82%;
+}/*FIN boxtext*/
+/*ESTILO DE NUMERO DENTOR DE BOX TEXT*/
+.number_inbox{
+	color: rgb(255,176,0);
+	font-size: 62px;
+	font-weight: bold;
+}
+/*Titulo de linea de tiempo*/
+.title-lineatime{
+	color: rgb(124,177,182);
+	font-size: 19px;
+	font-weight: bold
+}
+
+
+
+
 
 
