@@ -268,8 +268,9 @@ header{
 	.titulo-comonacio{
 		color: rgb(255,176,0) !important;
 		text-shadow: -7px -4px #000;
-		font-size: 58px;
+		font-size: 51px;
 		font-weight: bold;
+		padding-bottom: 4px;
 	}
 
 	.position-cerebro__dorado {
@@ -424,6 +425,252 @@ header{
 	font-size: 19px;
 	font-weight: bold
 }
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {
+	padding: 0;
+	color: #d0d0d0;
+	font-size: 14px;
+	background: #111111;
+  }
+  
+  #footer .footer-newsletter {
+	padding: 50px 0;
+	background: #111111;
+	text-align: center;
+	font-size: 15px;
+	color: #fff;
+  }
+  
+  #footer .footer-newsletter h4 {
+	font-size: 24px;
+	margin: 0 0 20px 0;
+	padding: 0;
+	line-height: 1;
+	font-weight: 600;
+  }
+  
+  #footer .footer-newsletter form {
+	margin-top: 30px;
+	background: #fff;
+	padding: 6px 10px;
+	position: relative;
+	border-radius: 5px;
+	box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+	text-align: left;
+  }
+  
+  #footer .footer-newsletter form input[type="email"] {
+	border: 0;
+	padding: 4px 8px;
+	width: calc(100% - 100px);
+  }
+  
+  #footer .footer-newsletter form input[type="submit"] {
+	position: absolute;
+	top: 0;
+	right: -2px;
+	bottom: 0;
+	border: 0;
+	background: none;
+	font-size: 16px;
+	padding: 0 20px 3px 20px;
+	background: #4eb478;
+	color: #fff;
+	transition: 0.3s;
+	border-radius: 0 5px 5px 0;
+	box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  #footer .footer-newsletter form input[type="submit"]:hover {
+	background: #45a36c;
+  }
+  
+  #footer .footer-top {
+	padding: 60px 0 30px 0;
+	background: #1b1b1b;
+	color: #fff;
+  }
+  
+  #footer .footer-top .footer-contact {
+	margin-bottom: 30px;
+  }
+  
+  #footer .footer-top .footer-contact h4 {
+	font-size: 22px;
+	margin: 0 0 30px 0;
+	padding: 2px 0 2px 0;
+	line-height: 1;
+	font-weight: 700;
+  }
+  
+  #footer .footer-top .footer-contact p {
+	font-size: 14px;
+	line-height: 24px;
+	margin-bottom: 0;
+	font-family: "Raleway", sans-serif;
+	color: #b7b7b7;
+  }
+  
+  #footer .footer-top h4 {
+	font-size: 16px;
+	font-weight: bold;
+	position: relative;
+	padding-bottom: 12px;
+  }
+  
+  #footer .footer-top .footer-links {
+	margin-bottom: 30px;
+  }
+  
+  #footer .footer-top .footer-links ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+  }
+  
+  #footer .footer-top .footer-links ul i {
+	padding-right: 2px;
+	color: #4eb478;
+	font-size: 18px;
+	line-height: 1;
+  }
+  
+  #footer .footer-top .footer-links ul li {
+	padding: 10px 0;
+	display: flex;
+	align-items: center;
+  }
+  
+  #footer .footer-top .footer-links ul li:first-child {
+	padding-top: 0;
+  }
+  
+  #footer .footer-top .footer-links ul a {
+	color: #aaaaaa;
+	transition: 0.3s;
+	display: inline-block;
+	line-height: 1;
+  }
+  
+  #footer .footer-top .footer-links ul a:hover {
+	text-decoration: none;
+	color: #4eb478;
+  }
+  
+  #footer .footer-top .social-links a {
+	font-size: 18px;
+	display: inline-block;
+	background: #373737;
+	color: #fff;
+	line-height: 1;
+	padding: 8px 0;
+	margin-right: 4px;
+	border-radius: 50%;
+	text-align: center;
+	width: 36px;
+	height: 36px;
+	transition: 0.3s;
+  }
+  
+  #footer .footer-top .social-links a:hover {
+	background: #4eb478;
+	color: #fff;
+	text-decoration: none;
+  }
+  
+  #footer .copyright {
+	text-align: center;
+	float: left;
+  }
+  
+  #footer .credits {
+	float: right;
+	text-align: center;
+	font-size: 13px;
+  }
+  @media (min-width: 300px) and (max-width: 750px){
+	.about .logo-about{
+	  width: 80% !important;
+	}
+	.boton-cel{
+	  margin-top: 1rem;
+	}
+	.logo-iluminados{
+	width: 80% !important;
+	}
+	.parrafo-iluminados{
+	  padding-left: 0 !important;
+	  text-align: justify;
+	}
+	.padding-iluminados-col-1{
+	  padding-top: 2rem !important;
+	}
+	.boton-iluminados{
+	  width: 100% !important;
+	  margin-left: 0 !important;
+	}
+	.logo-tiempo{
+	  width: 100% !important;
+	}
+	.redes{
+	  width: 10% !important;
+	}
+  }
+  .amarillo{
+	color: #fdaf00 !important;
+  }
+  .azul-gris{
+	color: #70abb0 !important;
+  }
+  .boton-crea{
+	background-color: #ffb000;
+	border-radius: 10px;
+	width: 100%;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+  }
+  .logo-iluminados{
+	width: 40%;
+  }
+  .logo-tiempo{
+	width: 70%;
+  }
+  .parrafo-iluminados{
+	padding-left: 10rem;
+	text-align: justify;
+  }
+  .boton-iluminados{
+	background-color: #7cb1b6;
+	color: #fff !important;
+	border-radius: 10px;
+	width: 78%;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	margin-left: 10rem;
+  }
+  .iluminados-img{
+	width: 100%;
+  }
+  .padding-iluminados-col-1{
+	padding-top: 15rem;
+  }
+  #features{
+	background-color: #e6e6e6 !important;
+  }
+  #tiempo{
+	background-color: #e6e6e6 !important;
+  }
+  .justificado{
+	text-align: justify;
+  }
+  .grande{
+	font-size: 70px;
+  }
+  .redes{
+	width: 15%;
+  }
 
 
 
