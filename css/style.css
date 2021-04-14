@@ -293,6 +293,45 @@ header{
 		position: relative;
 		bottom: -17px;
 		}
+
+		.position-responsive-icono1{
+			width: 20%;
+			position: absolute;
+			z-index: 2;
+			bottom: 89%;
+			left: 48%;
+		}
+		.position-responsive-icono2{
+			width: 17%;
+			position: absolute;
+			z-index: 2;
+			bottom: 77%;
+			left: 36%;
+		}
+		.position-icono3{
+			width: 114px;
+			position: relative;
+			bottom: 0%;
+			left: 0%;
+		}
+		.position-icono4{
+			width: 114px;
+			position: relative;
+			bottom: 39%;
+			left: 30%;
+		}
+		.position-icono5{
+			width: 114px;
+			position: relative;
+			bottom: 61%;
+			left: 38%;
+		}
+		.position-icono6{
+			width: 114px;
+			position: relative;
+			bottom: 41%;
+			left: 46%;
+		}
 }/*FIN RESPONSIVE*/
 
 #txt1 {
@@ -345,38 +384,38 @@ header{
 .position-icono1{
 	width: 114px;
 	position: relative;
-	bottom: 332px;
-	left: 92px;	
+	bottom: 59%;
+	left: 5%;
 }
 .position-icono2{
 	width: 114px;
 	position: relative;
-	bottom: 231px;
-	left: 251px;
+	bottom: 42%;
+	left: 14%;
 }
 .position-icono3{
 	width: 114px;
 	position: relative;
-	bottom: 351px;
-	left: 395px;
+	bottom: 62%;
+	left: 22%;
 }
 .position-icono4{
 	width: 114px;
 	position: relative;
-	bottom: 226px;
-	left: 542px;
+	bottom: 39%;
+	left: 30%;
 }
 .position-icono5{
 	width: 114px;
 	position: relative;
-	bottom: 344px;
-	left: 694px;
+	bottom: 61%;
+	left: 38%;
 }
 .position-icono6{
 	width: 114px;
 	position: relative;
-	bottom: 229px;
-	left: 838px;
+	bottom: 41%;
+	left: 46%;
 }/*FIN ICONOS*/
 /*POSICION CAJAS DE TEXTO LINEA DE TIEMPO*/
 .position-boxtext1{
