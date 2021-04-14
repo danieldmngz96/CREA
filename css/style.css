@@ -246,7 +246,7 @@ header{
 	font-size: 58px;
 	font-weight: bold;
 	padding-top: 102px;
-	padding-bottom: 98px;
+	padding-bottom: 195px;
 }
 
   @media screen and (min-height: 0px) and (max-width: 800px) {/*NUESTROS MEADIA QUERIES PARA PANTALLAS DELCELULAR */
@@ -298,39 +298,43 @@ header{
 			width: 20%;
 			position: absolute;
 			z-index: 2;
-			bottom: 89%;
+			bottom: 86%;
 			left: 48%;
 		}
 		.position-responsive-icono2{
 			width: 17%;
 			position: absolute;
 			z-index: 2;
-			bottom: 77%;
+			bottom: 71%;
 			left: 36%;
 		}
-		.position-icono3{
-			width: 114px;
-			position: relative;
-			bottom: 0%;
-			left: 0%;
+		.position-responsive-icono3{
+			width: 17%;
+			position: absolute;
+			z-index: 2;
+			bottom: 55%;
+			left: 51%;
 		}
-		.position-icono4{
-			width: 114px;
-			position: relative;
-			bottom: 39%;
-			left: 30%;
+		.position-responsive-icono4{
+			width: 17%;
+			position: absolute;
+			z-index: 2;
+			bottom: 38%;
+			left: 36%;
 		}
-		.position-icono5{
-			width: 114px;
-			position: relative;
-			bottom: 61%;
-			left: 38%;
+		.position-responsive-icono5{
+			width: 17%;
+			position: absolute;
+			z-index: 2;
+			bottom: 22%;
+			left: 51%;
 		}
-		.position-icono6{
-			width: 114px;
-			position: relative;
-			bottom: 41%;
-			left: 46%;
+		.position-responsive-icono6{
+			width: 17%;
+			position: absolute;
+			z-index: 2;
+			bottom: 5%;
+			left: 35%;
 		}
 }/*FIN RESPONSIVE*/
 
