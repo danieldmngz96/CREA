@@ -336,8 +336,49 @@ header{
 			bottom: 5%;
 			left: 35%;
 		}
+		.img-responsive-gabs{
+			width: 325px;
+		}
 }/*FIN RESPONSIVE*/
+/*--cover up mac , mac-book---*/
 
+@media only screen and (min-width: 1024px) and (max-width: 1920px) {
+	.btn-blue {
+		background-color: rgb(124,177,182) !important;
+		color: #fff !important;
+		font-weight: bold !important;
+		margin-left: 100px !important;
+		width: 74%;
+		height: 10%;
+		font-size: 29px !important;
+		border-radius: 5px !important;
+		position: relative;
+		bottom: -17px;
+		}
+		.position-icono2 {
+			width: 0px ;
+			position: relative;
+			bottom: 0%;
+			left: 0%;
+		}
+}
+
+/*--mac book pro , and mac-book retina display screen---*/
+
+@media only screen and (min-width: 1920px) and (max-width: 2560px) {
+}
+.img-gabs{
+	width: 325px;
+}
+.img-jj{
+	width: 325px;
+}
+.img-camilo{
+	width: 325px;
+}
+.img-nano{
+	width: 325px;
+}
 #txt1 {
     color: #FFD700;
     position: relative;
